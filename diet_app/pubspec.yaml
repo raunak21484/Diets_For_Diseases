@@ -1,0 +1,73 @@
+name: diet_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  collection: ^1.15.0
+  flutter_svg: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/trophie.png
+    - assets/images/card1.png
+    - assets/images/card2.png
+    - assets/images/card3.png
+    - assets/images/card4.png
+    - assets/images/splash_screen.png
+    - assets/images/background_img.png
+    - assets/images/badge_1.png
+    - assets/images/badge_2.png
+    - assets/images/badge_3.png
+    - assets/images/badge_4.png
+    - assets/images/badge_5.png
+    - assets/images/badge_6.png
+    - assets/images/badge_7.png
+    - assets/images/badge_8.png
+    - assets/images/badge_9.png
+    - assets/images/badge_10.png
+    - assets/images/badge_11.png
+    - assets/images/badge_12.png
+    - assets/images/badge_13.png
+    - assets/images/badge_14.png
+    - assets/images/badge_15.png
+    - assets/images/badge_1_greyed.png
+    - assets/images/badge_2_greyed.png
+    - assets/images/badge_3_greyed.png
+    - assets/images/badge_4_greyed.png
+    - assets/images/badge_5_greyed.png
+    - assets/images/badge_6_greyed.png
+    - assets/images/badge_7_greyed.png
+    - assets/images/badge_8_greyed.png
+    - assets/images/badge_9_greyed.png
+    - assets/images/badge_10_greyed.png
+    - assets/images/badge_11_greyed.png
+    - assets/images/badge_12_greyed.png
+    - assets/images/badge_13_greyed.png
+    - assets/images/badge_14_greyed.png
+    - assets/images/badge_15_greyed.png
+    - assets/images/underweight.png
+    - assets/images/obese.png
+    - assets/images/overweight.png
+    - assets/images/normal.png
+
+
+  fonts:
+    - family: Cabin Condensed
+      fonts:
+        - asset: assets/fonts/CabinCondensed-Regular.ttf
+        - asset: assets/fonts/CabinCondensed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/CabinCondensed-SemiBold.ttf
+          weight: 400
